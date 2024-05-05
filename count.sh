@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=/Users/leelakamineni/devops/repos/shell-assignment
+FILE=/Users/leelakamineni/devops/repos/shell-assignment/textfile.txt
 
 if [ -e $FILE ]
 then
