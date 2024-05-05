@@ -5,7 +5,7 @@ FILE=/Users/leelakamineni/devops/repos/shell-assignment/textfile.txt
 if [ -e $FILE ]
 then
    A=$(cat $FILE | sed -e 's/\.$//g' | tr -d '\n')
-   echo $A | sort 
+   echo $A | tr ' ' '\n' | sort -i
 
 else
     echo "file does not exist"
