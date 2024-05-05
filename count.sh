@@ -2,7 +2,7 @@
 
 FILE=/c/Users/Leela/Desktop/devops/daws-78s/repos/shell-assignment/textfile.txt
 
-if [ -e $FILE]
+if [ -e $FILE ]
 then
    cat $FILE
 
