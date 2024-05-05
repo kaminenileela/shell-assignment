@@ -8,7 +8,7 @@ then
    B=$(echo $A | tr ' ' '\n' | sort -f | uniq -c | sort -nr | head -n 5 | awk -F ' ' '{ print $2, ":", $1}')
 
    echo "Top five most frequent words are below:"
-   echo $B
+   echo "$B"
    
 else
     echo "file does not exist"
